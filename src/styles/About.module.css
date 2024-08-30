@@ -1,0 +1,131 @@
+.aboutBackground {
+    background-color: #ffffff; /* Light grey background for the overall page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 15rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.section, .sectionFirst{
+    background: #ffffff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sectionTitle {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.sectionText {
+    color: #555;
+}
+
+.featuresGrid,
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+    gap: 1.5rem;
+}
+
+.featureCard,
+.serviceCard {
+    border: 1px solid #ccc;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+.featureTitle,
+.serviceTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.featureDescription {
+    color: #777;
+}
+
+.serviceList {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.benefitsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefitItem {
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.checkIcon {
+    color: #31bd06;
+    margin-right: 0.5rem;
+}
+
+.callToAction {
+    text-align: center;
+}
+
+.callToActionText {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.downloadtitle {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.downloadButton {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.downloadButton:hover {
+    background-color: #28a745;
+}

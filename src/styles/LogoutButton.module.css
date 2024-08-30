@@ -1,0 +1,28 @@
+/* LogoutButton.module.css */
+.logoutButton {
+    background-color: #000000; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding for better button size */
+    font-size: 1rem; /* Font size */
+    font-weight: 500; /* Font weight */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between icon and text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transitions for hover effects */
+}
+
+.logoutButton:hover {
+    background-color: #31bd06; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.logoutButton:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+.logoutButton svg {
+    color: #fff; /* Ensure icon color matches text color */
+}

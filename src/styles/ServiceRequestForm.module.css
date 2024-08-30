@@ -1,0 +1,82 @@
+/* ServiceRequestForm.module.css */
+.form-container {
+    width: 600px;
+    margin: 2%;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #48ff00;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #48ff00;
+}
+
+.error-message {
+    color: red;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.success-modal .modal-header {
+    background-color: #48ff00;
+    color: #fff;
+}
+
+.success-modal .modal-footer button {
+    background-color: #48ff00;
+    border-color: #2f9f06;
+}
+
+.success-modal .modal-footer button:hover {
+    background-color: #48ff00;
+}
+
